@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "start_date": {
-      "type": "date"
-    },
-    "end_date": {
-      "type": "date"
-    },
     "fienta_id": {
       "type": "string"
     },
@@ -32,11 +26,23 @@
       "type": "richtext"
     },
     "events": {
-      "collection": "event",
-      "via": "festival"
+      "via": "festival",
+      "collection": "event"
     },
     "description_estonian": {
       "type": "richtext"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

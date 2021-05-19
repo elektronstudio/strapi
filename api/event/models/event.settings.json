@@ -19,10 +19,10 @@
       "type": "uid",
       "targetField": "title"
     },
-    "start_datetime": {
+    "start_at": {
       "type": "datetime"
     },
-    "end_datetime": {
+    "end_at": {
       "type": "datetime"
     },
     "streamkey": {
@@ -34,12 +34,8 @@
     "description_english": {
       "type": "richtext"
     },
-    "chat_enabled": {
-      "type": "boolean",
-      "default": true
-    },
     "images": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -51,8 +47,8 @@
       "pluginOptions": {}
     },
     "festival": {
-      "via": "events",
-      "model": "festival"
+      "model": "festival",
+      "via": "events"
     },
     "description_estonian": {
       "type": "richtext"
