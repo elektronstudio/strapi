@@ -52,6 +52,10 @@
     },
     "description_estonian": {
       "type": "richtext"
+    },
+    "chat": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
