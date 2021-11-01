@@ -47,8 +47,8 @@
       "pluginOptions": {}
     },
     "festival": {
-      "model": "festival",
-      "via": "events"
+      "via": "events",
+      "model": "festival"
     },
     "description_estonian": {
       "type": "richtext"

@@ -43,6 +43,10 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "pinned": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
