@@ -1,3 +1,7 @@
-# Strapi application
+## Elektron Strapi API
 
-A quick description of your strapi application
+### Recommended tooling
+
+https://tableplus.com/ for database client
+
+https://postgresapp.com/ for local database
