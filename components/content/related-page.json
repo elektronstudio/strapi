@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_related_pages",
+  "info": {
+    "name": "RelatedPage",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "page": {
+      "model": "page"
+    }
+  }
+}
