@@ -47,6 +47,16 @@
     "pinned": {
       "type": "boolean",
       "default": false
+    },
+    "archived": {
+      "type": "boolean",
+      "default": false
+    },
+    "intro": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "string"
     }
   }
 }
