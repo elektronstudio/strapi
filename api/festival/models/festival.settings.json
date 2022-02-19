@@ -53,10 +53,13 @@
       "default": false
     },
     "intro": {
-      "type": "string"
+      "type": "text"
     },
     "authors": {
       "type": "string"
+    },
+    "details": {
+      "type": "text"
     }
   }
 }

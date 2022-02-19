@@ -59,6 +59,9 @@
     },
     "controls": {
       "type": "text"
+    },
+    "intro": {
+      "type": "text"
     }
   }
 }
