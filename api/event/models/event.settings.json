@@ -62,6 +62,9 @@
     },
     "intro": {
       "type": "text"
+    },
+    "intro_english": {
+      "type": "text"
     }
   }
 }
