@@ -37,7 +37,10 @@
     "images": {
       "collection": "file",
       "via": "related",
-      "allowedTypes": ["images", "videos"],
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -68,10 +71,19 @@
     "thumbnail": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "live": {
+      "type": "boolean",
+      "default": true
+    },
+    "live_url": {
+      "type": "string"
     }
   }
 }
